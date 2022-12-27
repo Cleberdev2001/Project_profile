@@ -1,0 +1,97 @@
+body{
+    background-color: #22212C;
+    color: aliceblue;
+    text-align: center;
+    margin: 50px;
+}
+
+main{
+    display: flex;
+}
+
+/* Primeira Section*/
+#sec01{
+flex-wrap: wrap;
+}
+
+div{
+background:#302F3D;
+width: 348px;
+left: 40px;
+
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+margin-bottom: 30px;
+}
+
+
+
+/*div e perfil onde se encontra o nome e a foto do individuo*/
+#perfil{
+    height: 348px;
+    top: 362px;
+color: aliceblue;
+ 
+}
+/*Informaçoes pessoais do individuo*/
+#info{
+    height: 346px;
+    top: 362px;
+}
+/*tecnologias com qual já trabalhou ou aprendeu */
+#tec{
+height: 208px;
+top: 740px;
+}
+
+/*Experiências*/
+#exp{
+height: 349px;
+top: 978px;
+
+}
+
+#educ{
+height: 352px;
+top: 1357px;
+
+}
+
+/* Segunda Section*/
+#sec02{
+    flex-wrap: wrap;
+    width: 952px;
+    height: 86px;
+    margin-left: 40px;
+}
+
+#proj{
+    width: 952px;
+    height: 86px;
+    left: 448px;
+    top: 40px;
+    
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+   
+}
+
+#block{
+    width: 461px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    
+   
+}
+/*Especificações de todas as divs que esttiverem dentro dessa sugunda section*/
+div{
+    width: 461px;
+    height: 186px;
+    left: 448px;
+    top: 374px;
+display: inline-block;
+margin-left: 13px;
+}
+
