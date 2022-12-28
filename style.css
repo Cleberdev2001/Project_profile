@@ -1,97 +1,223 @@
-body{
-    background-color: #22212C;
-    color: aliceblue;
-    text-align: center;
-    margin: 50px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-main{
+aside{
+    width: 300px;
+    
+}
+
+aside .name{
+    font:bolder;
+    font-size: larger;
+    color:#837E9F ;
+}
+
+aside .bio{
+    font: normal;
+    font-size: small;
+    color: #837E9F;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    background-color: #22212c;
+    color: white;
+    
+}
+
+main {
     display: flex;
+    margin: 40px;
 }
 
-/* Primeira Section*/
-#sec01{
-flex-wrap: wrap;
+.box{
+    background: #302f3d;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0, 0.2);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding: 50px;
+    text-align: center;
 }
 
-div{
-background:#302F3D;
-width: 348px;
-left: 40px;
-
-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 20px;
-margin-bottom: 30px;
+#profile{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
-
-
-/*div e perfil onde se encontra o nome e a foto do individuo*/
-#perfil{
-    height: 348px;
-    top: 362px;
-color: aliceblue;
- 
-}
-/*Informaçoes pessoais do individuo*/
-#info{
-    height: 346px;
-    top: 362px;
-}
-/*tecnologias com qual já trabalhou ou aprendeu */
-#tec{
-height: 208px;
-top: 740px;
+#profile img{
+    border-radius: 50%;
+    height: 128px; 
+    width: 128px;
+    object-fit:cover ;
+    border: 2px solid #00FF00;
 }
 
-/*Experiências*/
-#exp{
-height: 349px;
-top: 978px;
-
+#social a{
+    display: flex;
+    gap: 20px;
+    color: #837E9F;
+    text-decoration: none;
 }
 
-#educ{
-height: 352px;
-top: 1357px;
-
+#social a .logo_container{
+    width: 24px;
+    margin-bottom: 10px;
 }
 
-/* Segunda Section*/
-#sec02{
+.titulo{
+    text-align: center ;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    color: #837E9F;
+}
+
+#tech .item{
+    align-items: center;
+    background: #CB92B1;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-bottom: 15px;
+    padding: 10px;
+    margin-inline: 5px;
+}
+
+#tech{
+    width: 315px;
+    justify-content: center;
+    display: flex;
     flex-wrap: wrap;
+}
+
+.Exp_titulo{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#837E9F ;
+}
+
+.Exp{
+    text-align: left;
+}
+
+.edu_titulo{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#837E9F ;
+}
+
+.edu{
+    text-align: left;
+}
+
+#projects{
+    display:flex ;
+    margin-left: 60px;
     width: 952px;
-    height: 86px;
-    margin-left: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#proj{
-    width: 952px;
-    height: 86px;
-    left: 448px;
-    top: 40px;
-    
-    background: #302F3D;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
+.mp{
+    text-align: left;
+    color: #837E9F;
+}
+
+.see a{
+    color: #837E9F;
+    text-align: end;
+    justify-content: right;
+    text-decoration: none;
+}
+
+#my-onix{
+margin-left: 60px;
+width: 450px;
+height: 186px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+
+.folder{
+    display: flex;
+
+}
+
+.folder a{
+    text-decoration: none;
+    color:#837E9F;
+    margin-left: 10px;
+}
+
+.descr{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.icon1{
+    display: flex;
+    margin-left: 10px;
+}
+
+.icon1 img{
+    margin-right: 10px;
+}
+
+.icon2{
+    display: flex;
+    justify-content: right;
+
+}
+
+.icon2 img{
+    margin-right: 10px;
    
-}
-
-#block{
-    width: 461px;
-    background: #302F3D;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
     
-   
-}
-/*Especificações de todas as divs que esttiverem dentro dessa sugunda section*/
-div{
-    width: 461px;
-    height: 186px;
-    left: 448px;
-    top: 374px;
-display: inline-block;
-margin-left: 13px;
 }
 
+.icon3{
+    display: flex;
+    margin-right: 20px; 
+}
+
+.icon3 img{  
+    margin-right:10px ;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-inline: 20px;
+    
+}
+
+.bc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

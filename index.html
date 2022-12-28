@@ -1,53 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <main> 
-    <section id="sec01">
-        <div id ="perfil"> <h1>Perfil</h1>
-            <p>Olá, </p>
+
+    <main>
+        <!-- primeira section -->
+        <aside>
+            <div class="box" id="profile">
+                <div class="photo"></div>
+               <div class="name"></div>
+                <div class="bio"></div>
+            </div>
+            <!-- Container de logos  -->
+            <div class="box" id="social">
+                <a href="#">
+                    <div class="logo_container">
+                        <img src="./logos/map-pin.svg" alt="">
+                    </div>
+                    <span>Brasil</span>
+                </a>
+                <a href="#">
+                    <div class="logo_container">
+                        <img src="./logos/briefcase.svg" alt="">
+                    </div>
+                    <span>Lab2Dev</span>
+                </a>
+                <a href="#">
+                    <div class="logo_container">
+                        <img src="./logos/github.svg" alt="">
+                    </div>
+                    <span>Cleberdev2001</span>
+                </a>
+                <a href="#">
+                    <div class="logo_container">
+                        <img src="./logos/linkedin.svg" alt="">
+                    </div>
+                    <span>Cleber Santana Dias</span>
+              
+                <a href="#">
+                    <div class="logo_container">
+                        <img src="./logos/twitter.svg" alt="">
+                    </div>
+                    <span>@cleberflick</span>
+                </a>
+            </div>
+
+            <!-- Container de tecnologias  -->
+            <div class="box" id="tech">
+                <div class="titulo">
+                    <h1>Tecnologias</h1>
+                </div>
+                <div class="item">Java Script</div>
+                <div class="item">ReactJS</div>
+                <div class="item">NodeJs</div>
+                <div class="item">C++</div>
+                <div class="item">Github</div>
+                <div class="item">HTML</div>
+                <div class="item">CSS</div>
+                <div class="item">Abap</div>
+                <div class="item">Phyton</div>
+            </div>
+
+            <div class="box" id="exp">
+                <div class="Exp_titulo">
+                    <h1>Experiência</h1>
+                </div>
+                <div class="Exp">
+                    <ul>
+                        <li>
+                            <strong>Lab2dev</strong> <br>
+                            2022- Atualmente desenvolvedor
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="box" id="educacao">
+                <div class="edu_titulo">
+                    <h1>Educação</h1>
+                </div>
+                <div class="edu">
+                    <ul>
+                        <li>
+                            <strong>Uninove</strong> <br>
+                            2019- Ciências da computação <br> <br>
+                        <li>
+                            <Strong>Lab2dev</Strong><br>
+                            10/2022 - 12/2022 -Prodev
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </aside>
+
+
+        <section id="repositories">
+            <div class="box" id="projects">
+                <div class="mp">
+                    <h1>My projects</h1>
+                </div>
+
+                <div class="see"> <a href="">Veja todos</a>
+                </div>
+            </div>
+<div class="bc">
+            <div class="box" id="my-onix">
+                <div class="card">
+
+                    <div class="folder">
+                        <img src="./logos2/folder.svg" alt="">
+                        <div class="title"></div>
+                    </div>
+
+                    <div class="descr">
+                        
+                    </div>
+
+                  <div class="icon">
+
+                    <div class="icon1">
+                         <img src="./logos2/Vector.svg" alt="">
+                         <div class="icon1_txt"></div>
+                         
+                    </div>
+
+                    <div class="icon2">
+                        <img src="./logos2/git-branch.svg" alt="">
+                        <div class="forks"></div>
+
+                    </div>
+
+                    <div class="icon3">
+                        <img src="./logos2/Ellipse 2.svg" alt="">
+                        <div class="icon1_txt3"> JavaScript</div>
+                       
+                    </div>
+
+                  </div>
+                  
+                </div>
+
+            </div>
+
         </div>
+        </section>
 
-        <div id="info"><h1>info</h1>
-        </div>
-
-        <div id="tec"><h1>Tecnologias</h1>
-        </div>
-
-        <div id="exp"><h1>Experiências</h1>
-        </div>
-
-        <div id="educ"><h1>Educação</h1>
-        </div>
-    </section>
-
-    <section id = "sec02">
-    <div id="proj"><h1>Projetos</h1></div>
-
-    <div id="b1"><h1>b1</h1></div>
-
-    <div id="b2"><h1>b2</h1></div>
-
-    <div id="b3"><h1>b3</h1></div>
-
-    <div id="b4"><h1>b4</h1></div>
-
-    <div id="b5"><h1>b5</h1></div>
-    
-    <div id="b6"><h1>b6</h1></div>
-    </section>
-
-    
-       
-    
-    </section>
-</main>
+    </main>
 </body>
+ <script src="script.js"></script>
 </html>
