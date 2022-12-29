@@ -16,10 +16,12 @@ fetch("https://api.github.com/users/Cleberdev2001/repos")
 const dados = response
 const elementTitle = document.querySelector('.title')
 const elementDescr = document.querySelector('.descr')
-const elementStar = document.querySelector('.icon1_text')
+const elementStar = document.querySelector('.star')
 const elementForks = document.querySelector('.forks')
+const elemnetLang = document.querySelector('.lang')
 elementTitle.innerHTML = `<a href = "${dados[0].html_url}" >${dados[0].name}</a>`
 elementDescr.innerHTML = dados[0].description
 elementStar.innerHTML = dados[0].stargazers_count
 elementForks.innerHTML = dados[0].forks
-})
+elemnetLang.innerHTML = dados[0].language
+}) 
